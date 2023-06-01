@@ -6,4 +6,10 @@
 
 ### install
 
-yarn revol-cli -g
+#### npm
+
+npm i revol -g
+
+#### yarn
+
+yarn add revol-cli -g
