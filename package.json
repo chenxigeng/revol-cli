@@ -1,15 +1,23 @@
 {
-  "name": "xtool-cli",
+  "name": "revol-cli",
   "version": "1.0.0",
-  "description": "xtool vue cli",
+  "description": "revol vue cli",
   "bin": {
-    "xtool": "./bin/cli.js"
+    "revol": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "revol",
-  "license": "ISC",
+  "author": {
+    "name": "Revol-C",
+    "email": "869385487@qq.com"
+  },
+  "keywords": [
+    "revol-cli",
+    "revol",
+    "脚手架"
+  ],
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "chalk": "^4.1.2",

@@ -16,7 +16,7 @@ program
 
 program
   // 配置cli信息的名字
-  .name('xtool')
+  .name('revol')
   // 配置版本号信息
   .version(`v${require('../package.json').version}`)
   // 配置使用方法说明
@@ -29,7 +29,7 @@ program
     console.log(
       '\r\n' +
         chalk.hex('#4455ff').bold(
-          figlet.textSync('xtool cli', {
+          figlet.textSync('revol cli', {
             font: '3D-ASCII',
             horizontalLayout: 'default',
             verticalLayout: 'default',
